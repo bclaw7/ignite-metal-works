@@ -68,7 +68,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('/assets/metal-fabrication.jpg');
+  background-image: url('/public/metal-fabrication.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
