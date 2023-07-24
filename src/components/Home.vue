@@ -4,11 +4,11 @@ import Contact from './Contact.vue'
 
 <template>
   <div class="intro">
-    <h1>Ignite Metal Works</h1>
+    <h1>Ignite Service Co.</h1>
     <h2>Precision metal fabrication for a flawless finish.</h2>
-    <p>Ignite Metal Works specializes in piping, structural, and fabrication. We are systematically
-      experienced in
-      meeting challenging safety protocols, specifications and inspection standards</p>
+    <p>Ignite Service Company specializes in railing, residential and commercial support poles, miscellaneous steelwork
+      and gates. We are systematically experienced in meeting challenging safety protocols, specifications and inspection
+      standards.</p>
   </div>
   <Contact />
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="copyright">
         <img src="../assets/ignite-metal-works-logo.png" class="logo" alt="Ignite Metal Works logo">
-        <p>&copy; 2023 Ignite Metal Works, LLC.</p>
+        <p>&copy; 2023 Ignite Service Company</p>
     </div>
 </template>
 

@@ -5,7 +5,7 @@
       <a href="tel:8067781029" class="button">
         <p>Phone</p>
       </a>
-      <a href="mailto:chase@ignitemetalworks.com" class="button">
+      <a href="mailto:chase@igniteserviceco.com" class="button">
         <p>E-Mail</p>
       </a>
     </div>
