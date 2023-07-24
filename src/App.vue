@@ -1,78 +1,35 @@
 <script setup>
+import Hero from './components/Hero.vue'
 import Home from './components/Home.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/ignite-metal-works-logo.png" width="280" height="280" />
-    <div class="contact-info">
-      <a href="tel:8067781029" class="hover-underline-animation">&#9742; (806)778-1029</a>
-      <a href="mailto:chase@ignitemetalworks.com" class="hover-underline-animation">&#128231; ignitemetalworks.com</a>
-    </div>
+    <Hero />
   </header>
-
   <main>
     <Home />
   </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  display: flex;
-  flex-wrap: wrap-reverse;
-}
-
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto;
+footer {
+  background-color: var(--white);
+  padding: 1rem;
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
 }
 
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 1rem;
-}
-
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-}
-
-.hover-underline-animation::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-heading);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-@media screen and (min-width: 1024px) {
-  header {
-    flex-wrap: nowrap;
+@media (min-width: 1024px) {
+  footer {
+    clip-path: polygon(0 0, 100% 23%, 100% 100%, 0 100%);
   }
-
-  .contact-info {
-    width: auto;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
-
 }
 </style>
